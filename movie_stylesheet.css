@@ -1,0 +1,355 @@
+@charset "utf-8";
+body{
+  background-color: #eba048B3;
+  background-image:
+  repeating-linear-gradient(-45deg,#eba0484D, #eba0484D 5px,transparent 0, transparent 10px);
+  background-size: cover;
+  font-family:'メイリオ', 'Meiryo', sans-serif;
+  color: #222222;
+  font-size: 100% /* =16px */
+}
+
+header{
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  color: #f5f5f5;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.header_Emphasis{
+  margin: 0 0.25rem;
+  color: #51a0de;
+  font-size: 3rem;
+}
+
+.wrapper{
+  background-color: #f5f5f5E6;
+  margin: 1rem 20% 1rem 20%;
+  padding: 2rem 3rem;
+}
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+  .wrapper{
+    background-color: #f5f5f5E6;
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+  .wrapper{
+    background-color: #f5f5f5E6;
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+}
+
+.page_title{
+  padding-left: 1rem;
+  color: #f5f5f5;
+  line-height: 2;
+  font-size: 1.5rem; /* =24px */
+  background-color: #eba048;
+  margin: 0.5rem 0 0.5rem 0;
+  font-weight: bold;
+}
+
+
+/*1曲目の情報--------------------------------------------------------------------------*/
+
+.first_music_title{
+  color: #f5f5f5;
+  line-height: 2;
+  margin-top: 1.5rem;
+}
+
+.first_music_title_name{
+  font-size: 1.5rem;
+  background-color: #51a0de;
+  padding-left: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.first_music_composer,.first_music_disc_tiyle{
+  background-color: #eba048;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+.first_music_review_content{
+  display: flex;
+  width: 100%;
+}
+
+.first_music_review_text{
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.first_music_left_content{
+  width: 70%;
+}
+
+.first_music_disc_jacket{
+  text-align: center;
+  margin: 0.25rem 0.25rem 0.5rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #222222;
+}
+
+.first_music_right_content{
+  width: 30%;
+  background-color: #eba048;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f5f5f5;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5;
+  padding: 0 0.5rem;
+  font-weight: bold;
+}
+
+.first_music_original_image{
+  text-align: center;
+}
+
+.first_music_link{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  width: 30%;
+}
+
+/*2曲目の情報--------------------------------------------------------------------------*/
+
+.second_music_title{
+  color: #f5f5f5;
+  line-height: 2;
+  margin-top: 1.5rem;
+}
+
+.second_music_title_name{
+  font-size: 1.5rem;
+  background-color: #51a0de;
+  padding-left: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.second_music_composer,.second_music_disc_tiyle{
+  background-color: #eba048;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+.second_music_review_content{
+  display: flex;
+  width: 100%;
+}
+
+.second_music_review_text{
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.second_music_left_content{
+  width: 70%;
+}
+
+.second_music_disc_jacket{
+  text-align: center;
+  margin: 0.25rem 0.25rem 0.5rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #222222;
+}
+
+.second_music_right_content{
+  width: 30%;
+  background-color: #eba048;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f5f5f5;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  padding: 0 0.5rem;
+  font-weight: bold;
+}
+
+.second_music_original_image{
+  text-align: center;
+}
+
+.sacond_music_link{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  width: 30%;
+}
+
+/*3曲目の情報--------------------------------------------------------------------------*/
+
+.third_music_title{
+  color: #f5f5f5;
+  line-height: 2;
+  margin-top: 1.5rem;
+}
+
+.third_music_title_name{
+  font-size: 1.5rem;
+  background-color: #51a0de;
+  padding-left: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.third_music_composer,.third_music_disc_tiyle{
+  background-color: #eba048;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+.third_music_review_content{
+  display: flex;
+  width: 100%;
+}
+
+.third_music_review_text{
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.third_music_left_content{
+  width: 70%;
+}
+
+.third_music_disc_jacket{
+  text-align: center;
+  margin: 0.25rem 0.25rem 0.5rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #222222;
+}
+
+.third_music_right_content{
+  width: 30%;
+  background-color: #eba048;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f5f5f5;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.third_music_original_image{
+  text-align: center;
+}
+
+.third_music_link{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  width: 30%;
+}
+
+/*リンクの情報---------------------------------------------------------------------------*/
+.sub_section{
+  display: flex;
+  flex-direction: column;
+}
+
+.sub_title{
+  padding-left: 1rem;
+  line-height: 2;
+  font-size: 1.5rem;
+  background-color: #51a0de; 
+  color: #f5f5f5;
+  margin: 1.5rem 0 0.5rem 0; 
+  font-weight: bold;
+}
+
+.sub_link_group{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+a{
+  display: block;
+}
+
+.home_link{
+  width: 50px;
+}
+
+.home_link:hover img{
+  visibility: hidden;
+}
+
+.home_link:hover{
+  background-image: url(icon/ホームのベクター素材push.png);
+  background-size: contain;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.movie_link{
+  width: 50px;
+}
+
+.movie_link:hover img{
+  visibility: hidden;
+}
+
+.movie_link:hover{
+  background-image: url(icon/映画の映写機のアイコン素材2push.png);
+  background-size: contain;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.anime_link{
+  width: 50px;
+}
+
+.anime_link:hover img{
+  visibility: hidden;
+}
+
+.anime_link:hover{
+  background-image: url(icon/テレビの無料アイコン素材push.png);
+  background-size: contain;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.game_link{
+  width: 50px;
+}
+
+.game_link:hover img{
+  visibility: hidden;
+}
+
+.game_link:hover{
+  background-image: url(icon/ゲームの無料アイコンpush.png);
+  background-size: contain;
+  text-align: center;
+  background-repeat: no-repeat;
+}
